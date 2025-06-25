@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "name": "project-proposal.pdf",
+    "size": 2457600,
+    "type": "application/pdf",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "timeRemaining": 0,
+    "url": "https://cdn.dropzone.com/files/1/project-proposal.pdf",
+    "error": null
+  },
+  {
+    "Id": 2,
+    "name": "design-mockups.zip",
+    "size": 15728640,
+    "type": "application/zip",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "timeRemaining": 0,
+    "url": "https://cdn.dropzone.com/files/2/design-mockups.zip",
+    "error": null
+  },
+  {
+    "Id": 3,
+    "name": "presentation-slides.pptx",
+    "size": 8388608,
+    "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "timeRemaining": 0,
+    "url": "https://cdn.dropzone.com/files/3/presentation-slides.pptx",
+    "error": null
+  }
+]

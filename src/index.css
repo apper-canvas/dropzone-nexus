@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import react-toastify CSS */
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Ensure scrollbars are visible */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+  background: #0F0F23;
+  color: white;
+}
+
+/* Prevent horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+/* Main content areas must allow scroll */
+.main-content {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Custom scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 127, 255, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 127, 255, 0.8);
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient border animation */
+.gradient-border {
+  background: linear-gradient(45deg, #5B4FFF, #00D4FF, #5B4FFF);
+  background-size: 300% 300%;
+  animation: border-flow 3s ease infinite;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

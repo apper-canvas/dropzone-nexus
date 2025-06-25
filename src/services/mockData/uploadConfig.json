@@ -1,0 +1,26 @@
+{
+  "maxFileSize": 104857600,
+  "allowedTypes": [
+    "image/jpeg",
+    "image/png",
+    "image/gif",
+    "image/webp",
+    "application/pdf",
+    "application/zip",
+    "application/x-zip-compressed",
+    "application/msword",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "application/vnd.ms-excel",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "application/vnd.ms-powerpoint",
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "text/plain",
+    "text/csv",
+    "video/mp4",
+    "video/quicktime",
+    "audio/mpeg",
+    "audio/wav"
+  ],
+  "maxConcurrentUploads": 5,
+  "chunkSize": 1048576
+}
